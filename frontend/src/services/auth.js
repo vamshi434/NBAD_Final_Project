@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://nbad-final-project-backend.onrender.com";
+const API_URL = "https://nbad-final-project-backend.onrender.com/auth";
 
 export const login = async (username, password) => {
   console.log("Sending login request:", { username, password }); // Debug request data
