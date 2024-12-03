@@ -1,0 +1,25 @@
+.footer {
+    background-color: #b9d7f7;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    position: relative; /* Change from fixed to relative */
+    width: 100%;
+    margin-top: auto; /* Push footer to the bottom of the content */
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .footer-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
